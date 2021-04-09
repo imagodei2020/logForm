@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+ <head>
+	 <title>Pop-up Form</title>
+	 <meta charset="UTF-8"/>
+	 <link rel="stylesheet" href="main.css" type="text/css"/>
+ </head>
+	 <body>
+	 <button class="openButton" onclick="openForm()">Open Form</button>
+	<div class="logContainer" id="logForm">
+	<h1>Login</h1>
+	<form class="formContainer">
+	<input class="username" type="text" name="username" placeholder="Username" required/>
+	<input class="password" type="password" name="password" placeholder="password" required>
+	<button class="logBtn">Login</button>
+	<button class="closeBtn" onclick="closeForm() ">Close</button>
+	</form>
+	</div>
+	
+	<p>Hit the "open form" button to open the form and the "close" button on the form to close it.</p> 
+	<script src="logForm.js"></script>
+	 </body>
+ </html>
